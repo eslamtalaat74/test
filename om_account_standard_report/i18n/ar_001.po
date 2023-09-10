@@ -1,0 +1,1180 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_account_standard_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210709\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-29 04:19+0000\n"
+"PO-Revision-Date: 2021-07-31 11:27+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__summary
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__summary
+msgid ""
+" * Check : generate a trial balance.\n"
+" * Uncheck : detail report.\n"
+msgstr ""
+" * فحص: إنشاء ميزان مراجعة.\n"
+" * قم بإلغاء التحديد: تقرير تفصيلي.\\n\n"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__init_balance_history
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__init_balance_history
+msgid ""
+" * Check this box if you need to report all the debit and the credit sum "
+"before the Start Date.\n"
+" * Uncheck this box to report only the balance before the Start Date\n"
+msgstr ""
+" * حدد هذا المربع إذا كنت بحاجة إلى الإبلاغ عن مبلغ الخصم والائتمان قبل "
+"تاريخ البدء.\n"
+"  * قم بإلغاء تحديد هذا المربع للإبلاغ عن الرصيد فقط قبل تاريخ البدء\n"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__ledger_type
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__ledger_type
+msgid ""
+" * General Ledger : Journal entries group by account\n"
+" * Partner Leger : Journal entries group by partner, with only payable/"
+"recevable accounts\n"
+" * Journal Ledger : Journal entries group by journal, without initial "
+"balance\n"
+" * Open Ledger : Openning journal at Start date\n"
+msgstr ""
+" * دفتر الأستاذ العام: مجموعة إدخالات دفتر اليومية حسب الحساب\n"
+"  * Partner Leger: مجموعة إدخالات دفتر اليومية حسب الشريك ، مع حسابات "
+"الدفع / القابلة للاسترداد فقط\n"
+"  * دفتر الأستاذ: مجموعة إدخالات دفتر اليومية حسب دفتر اليومية ، بدون "
+"رصيد مبدئي\n"
+"  * فتح دفتر الأستاذ: فتح دفتر اليومية في تاريخ البدء\n"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#, python-format
+msgid " Balance"
+msgstr " الرصيد"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#, python-format
+msgid " Totals"
+msgstr " المجاميع"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/models/ir_report.py:0
+#, python-format
+msgid "%s model was not found"
+msgstr "%s model was not found"
+
+#. module: om_account_standard_report
+#: model:ir.actions.report,print_report_name:om_account_standard_report.action_standard_excel
+msgid "'object.report_id.report_name'"
+msgstr "'object.report_id.report_name'"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "0-30"
+msgstr "0-30"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__1
+msgid "01 Junary"
+msgstr "01 يناير"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__2
+msgid "02 Febuary"
+msgstr "02 فبراير"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__3
+msgid "03 March"
+msgstr "03 مارس"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__4
+msgid "04 April"
+msgstr "04 أبريل"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__5
+msgid "05 May"
+msgstr "05 مايو"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__6
+msgid "06 June"
+msgstr "06 يونيو"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__7
+msgid "07 Jully"
+msgstr "07 يوليو"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__8
+msgid "08 August"
+msgstr "08 أغسطس"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__9
+msgid "09 September"
+msgstr "09 سبتمبر"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__10
+msgid "10 October"
+msgstr "10 أكتوبر"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__11
+msgid "11 November"
+msgstr "11 نوفمبر"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__month_selec__12
+msgid "12 December"
+msgstr "12 ديسمبر"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__age_120_days
+msgid "120 days"
+msgstr "120 يومًا"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "30-60"
+msgstr "30-60"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__age_30_days
+msgid "30 days"
+msgstr "30 يوما"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "60-90"
+msgstr "60-90"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__age_60_days
+msgid "60 days"
+msgstr "60 يوما"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "90-120"
+msgstr "90-120"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__age_90_days
+msgid "90 days"
+msgstr "90 يومًا"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "<strong>Company:</strong>"
+msgstr "<strong> الشركة: </ strong>"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "<strong>Devise:</strong>"
+msgstr "<strong> ابتكر: </ strong>"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "<strong>End Date :</strong>"
+msgstr "<strong> تاريخ الانتهاء: </ strong>"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "<strong>Start Date :</strong>"
+msgstr "<strong> تاريخ البدء: </ strong>"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "<strong>Target Moves:</strong>"
+msgstr "<strong> حركات الهدف: </ strong>"
+
+#. module: om_account_standard_report
+#. openerp-web
+#: code:addons/om_account_standard_report/static/src/js/report/action_manager_report.js:0
+#, python-format
+msgid ""
+"A popup window with your report was blocked. You may need to change your "
+"browser settings to allow popup windows for this page."
+msgstr ""
+"تم حظر نافذة منبثقة مع تقريرك. قد تحتاج إلى تغيير إعدادات المستعرض الخاص "
+"بك للسماح بالنوافذ المنبثقة لهذه الصفحة."
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_report_om_account_standard_report_abstract
+msgid "Abstract XLSX Report"
+msgstr "تقرير XLSX الملخص"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model,name:om_account_standard_report.model_account_account
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__account_ids
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__account_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__account_id
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__report_type__account
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Account"
+msgstr "حساب"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#, python-format
+msgid "Account Name"
+msgstr "اسم الحساب"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_account_report_standard_ledger_line
+msgid "Account Standard Ledger Line"
+msgstr "خط دفتر الأستاذ القياسي للحساب"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_account_report_standard_ledger_report_object
+msgid "Account Standard Ledger Object"
+msgstr "كائن دفتر الأستاذ القياسي للحساب"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_account_report_standard_ledger_period
+msgid "Account Standard Ledger Period"
+msgstr "فترة دفتر الأستاذ القياسي للحساب"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_account_report_standard_ledger_report
+msgid "Account Standard Ledger Report"
+msgstr "تقرير دفتر الأستاذ القياسي للحساب"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_account_report_template
+msgid "Account Standard Ledger Template"
+msgstr "قالب دفتر الأستاذ القياسي للحساب"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_account_report_standard_ledger
+msgid "Account Standard Ledger Wizard"
+msgstr "معالج حساب دفتر الأستاذ القياسي"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_form
+msgid "Accounting Documents"
+msgstr "وثائق المحاسبة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__account_in_ex_clude_ids
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__account_in_ex_clude_ids
+msgid "Accounts"
+msgstr "الحسابات"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__account_group_ids
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__account_group_ids
+msgid "Accounts Group"
+msgstr "مجموعة الحسابات"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__ledger_type__aged
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__ledger_type__aged
+#, python-format
+msgid "Aged Balance"
+msgstr "الرصيد القَدِيم"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__target_move__all
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__target_move__all
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "All Entries"
+msgstr "كافة الإدخالات"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__target_move__posted
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__target_move__posted
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "All Posted Entries"
+msgstr "كافة الإدخالات المرحلة"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "Ammount Currency"
+msgstr "كمية العملات"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_form
+msgid "Amount"
+msgstr "كمية"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__amount_currency
+#, python-format
+msgid "Amount Currency"
+msgstr "كمية العملات"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__report_type__analytic
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Analytic"
+msgstr "تحليلي"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__analytic_account_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__analytic_account_id
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__analytic_account_ids
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__analytic_account_ids
+msgid "Analytic Accounts"
+msgstr "الحسابات التحليلية"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__ledger_type__analytic
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__ledger_type__analytic
+#, python-format
+msgid "Analytic Ledger"
+msgstr "دفتر الأستاذ التحليلي"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__period_date
+msgid "Auto complete Start and End date."
+msgstr "تاريخ البدء والانتهاء للإكمال التلقائي."
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__balance
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "Compact"
+msgstr "المدمج"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__compact_account
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__compact_account
+msgid "Compact Account.\t"
+msgstr "حساب المدمجة\t"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_account__compacted
+msgid "Compacte entries."
+msgstr "Compacte entries."
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__line_type__3_compact
+msgid "Compacted"
+msgstr "مضغوط"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__company_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__company_currency_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__company_currency_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__company_currency_id
+msgid "Company Currency"
+msgstr "عملة المؤسسة"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#, python-format
+msgid "Company:"
+msgstr "شركة:"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__create_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__create_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__create_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__create_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__create_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__create_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__create_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__create_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__create_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__create_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__credit
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Credit"
+msgstr "ائتمان"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__cumul_balance
+msgid "Cumul Balance"
+msgstr "الرصيد التراكمي"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_res_currency
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_account__type_third_parties__customer
+msgid "Customer"
+msgstr "العميل"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__result_selection__customer
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__result_selection__customer
+msgid "Customers"
+msgstr "العملاء"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__result_selection__customer_supplier
+msgid "Customers and Suppliers"
+msgstr "العملاء والموردين"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__date
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__date_from
+msgid "Date from"
+msgstr "التاريخ من"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__date_to
+msgid "Date to"
+msgstr "الي تاريخ"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_form
+msgid "Dates"
+msgstr "تواريخ"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__debit
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Debit"
+msgstr "مدين"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_account__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_report_om_account_standard_report_abstract__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_report_om_account_standard_report_report_account_standard_excel__display_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_res_currency__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__date_maturity
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Due Date"
+msgstr "تاريخ الاستحقاق"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__date_to
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__date_to
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__date_to
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#, python-format
+msgid "End Date : %s "
+msgstr "تاريخ الإنتهاء :%s "
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__move_id
+msgid "Entrie"
+msgstr "إدخالات"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_view
+msgid "Excel File"
+msgstr "ملف اكسيل"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_res_currency__excel_format
+msgid "Excel format"
+msgstr "تنسيق Excel"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__account_method__exclude
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__account_method__exclude
+msgid "Exclude"
+msgstr "استبعاد"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__ledger_type__general
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__ledger_type__general
+#, python-format
+msgid "General Ledger"
+msgstr "دفتر الأستاذ العام"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__group_by_key
+msgid "Group By Key"
+msgstr "تجميع حسب المفتاح"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_account__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_report_om_account_standard_report_abstract__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_report_om_account_standard_report_report_account_standard_excel__id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_res_currency__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+msgid "INIT"
+msgstr "INIT"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__account_in_ex_clude_ids
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__account_in_ex_clude_ids
+msgid "If empty, get all accounts"
+msgstr "إذا كانت فارغة ، احصل على جميع الحسابات"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__partner_select_ids
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__partner_select_ids
+msgid "If empty, get all partners"
+msgstr "إذا كانت فارغة ، احصل على جميع الشركاء"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_account__compacted
+msgid ""
+"If flagged, no details will be displayed in the Standard report, only "
+"compacted amounts."
+msgstr ""
+"إذا تم وضع علامة عليها ، فلن يتم عرض أي تفاصيل في التقرير القياسي ، فقط "
+"المقادير المضغوطة."
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__account_method__include
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__account_method__include
+msgid "Include"
+msgstr "يشمل"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_form
+msgid "Information"
+msgstr "معلومات"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__view_type__init
+msgid "Init"
+msgstr "فيه"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__line_type__0_init
+msgid "Initial"
+msgstr "مبدئي"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__init_balance_history
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__init_balance_history
+msgid "Initial balance with history."
+msgstr "التوازن الأولي مع التاريخ."
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__line_type__1_init_line
+msgid "Init Line"
+msgstr "خط التهيئة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__amount_currency
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__amount_currency
+msgid ""
+"It adds the currency column on report if the currency differs from the "
+"company currency."
+msgstr "يضيف عمود العملة في التقرير إذا كانت العملة تختلف عن عملة الشركة."
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "JRNL"
+msgstr "JRNL"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__journal_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__journal_id
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__report_type__journal
+msgid "Journal"
+msgstr "دفتر اليومية"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_form
+msgid "Journal Item"
+msgstr "عنصر اليومية"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_search_view
+msgid "Journal Items"
+msgstr "عناصر اليومية"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__ledger_type__journal
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__ledger_type__journal
+#, python-format
+msgid "Journal Ledger"
+msgstr "دفتر اليومية"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Journal entries"
+msgstr "إدخالات دفتر اليومية"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__journal_ids
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__journal_ids
+msgid "Journals"
+msgstr "دفاتر اليومية"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_account____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_ir_actions_report____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_report_om_account_standard_report_abstract____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_report_om_account_standard_report_report_account_standard_excel____last_update
+#: model:ir.model.fields,field_description:om_account_standard_report.field_res_currency____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__write_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__write_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__write_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__write_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__write_uid
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__write_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__write_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__write_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__write_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__write_date
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__line_ids
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__line_type__2_line
+msgid "Line"
+msgstr "بند"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__line_super_total_id
+msgid "Line Super Total"
+msgstr "خط سوبر المجموع"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__line_total_ids
+msgid "Line Total"
+msgstr "مجموعه الخط"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__full_reconcile_id
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Match."
+msgstr "تطابق."
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_form
+msgid "Matching"
+msgstr "مطابقة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__account_method
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__account_method
+msgid "Method"
+msgstr "الطريقة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__month_selec
+msgid "Month"
+msgstr "شهر"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__move_line_id
+msgid "Move Line"
+msgstr "بند الحركة"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_period__name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__name
+#, python-format
+msgid "Name"
+msgstr "اسم"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_account__type_third_parties__no
+msgid "No"
+msgstr "رقم"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__view_type__normal
+msgid "Normal"
+msgstr "عادي"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Not Due"
+msgstr "غير مستحق"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__current
+msgid "Not due"
+msgstr "غير مستحق"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_view
+msgid "OPEN TEMPLATES"
+msgstr "القوالب المفتوحة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__object_id
+msgid "Object"
+msgstr "موضوع"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__older
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Older"
+msgstr "أقدم"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Only UnReconciled Entries"
+msgstr "فقط الإدخالات التي لم تتم تسويتها"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__reconciled
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__reconciled
+msgid ""
+"Only for entrie with a payable/receivable account.\n"
+" * Check this box to see un-reconcillied and reconciled entries with "
+"payable.\n"
+" * Uncheck to see only un-reconcillied entries. Can be use only with "
+"parnter ledger.\n"
+msgstr ""
+"فقط للمؤسسات التي لديها حساب دائن / مستحق.\n"
+"  * حدد هذا المربع لرؤية الإدخالات التي لم يتم تسويتها وتسويتها مع مستحق "
+"الدفع.\n"
+"  * قم بإلغاء التحديد لرؤية الإدخالات التي لم تتم تسويتها فقط. يمكن "
+"استخدامه فقط مع دفتر الأستاذ.\n"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__ledger_type__open
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__ledger_type__open
+#, python-format
+msgid "Open Ledger"
+msgstr "افتح دفتر الأستاذ"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_ledger_line_form
+msgid "Other"
+msgstr "غير ذلك"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__partner_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__partner_id
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__report_type__partner
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Partner"
+msgstr "شريك"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__ledger_type__partner
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__ledger_type__partner
+#, python-format
+msgid "Partner Ledger"
+msgstr "دفتر الأستاذ العام للشركاء"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__partner_select_ids
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__partner_select_ids
+msgid "Partners"
+msgstr "شركاء"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__result_selection
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__result_selection
+msgid "Partners Selection"
+msgstr "اختيار الشركاء"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__partner_ids
+msgid "Partners in report"
+msgstr "شركاء في التقرير"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__period_date
+msgid "Period"
+msgstr "الفترة"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_view
+msgid "Print PDF"
+msgstr "طباعة PDF"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__print_time
+msgid "Print Time"
+msgstr "وقت الطباعة"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#, python-format
+msgid "Print on %s"
+msgstr "Print on %s"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__reconciled
+msgid "Reconciled"
+msgstr "تمت التسوية"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "Ref"
+msgstr "المرجع"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__report_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__report_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report_object__report_id
+msgid "Report"
+msgstr "تقرير"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_ir_actions_report
+msgid "Report Action"
+msgstr "إجراء التقرير"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__report_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__report_name
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__report_name
+msgid "Report Name"
+msgstr "اسم التقرير"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__report_object_id
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__report_object_ids
+msgid "Report Object"
+msgstr "كائن تقرير"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_view
+msgid "Report Options"
+msgstr "خيارات التقرير"
+
+#. module: om_account_standard_report
+#: model:ir.ui.menu,name:om_account_standard_report.menu_standard_template
+msgid "Report Templates"
+msgstr "قوالب التقارير"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__report_type
+#: model:ir.model.fields,field_description:om_account_standard_report.field_ir_actions_report__report_type
+msgid "Report Type"
+msgstr "نوع التقرير"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_view
+msgid "SAVE"
+msgstr "حفظ"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__journal_ids
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__journal_ids
+msgid "Select journal, for the Open Ledger you need to set all journals."
+msgstr ""
+"حدد دفتر اليومية، من أجل افتح دفتر الأستاذ ، تحتاج إلى تعيين جميع دفاتر "
+"اليومية."
+
+#. module: om_account_standard_report
+#: model:ir.actions.report,name:om_account_standard_report.action_standard_excel
+msgid "Standard Excel Report"
+msgstr "تقرير Excel قياسي"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_template_form_view
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_template_tree_view
+msgid "Standard Ledger Template"
+msgstr "قالب دفتر الأستاذ القياسي للحساب"
+
+#. module: om_account_standard_report
+#: model:ir.actions.act_window,name:om_account_standard_report.action_account_standard_report
+#: model:ir.actions.report,name:om_account_standard_report.action_standard_report
+#: model:ir.ui.menu,name:om_account_standard_report.menu_account_standard_report
+msgid "Standard Report"
+msgstr "تقرير قياسي"
+
+#. module: om_account_standard_report
+#: model:ir.model,name:om_account_standard_report.model_report_om_account_standard_report_report_account_standard_excel
+msgid "Standard Report Excel"
+msgstr "تقرير Excel قياسي"
+
+#. module: om_account_standard_report
+#: model:ir.actions.act_window,name:om_account_standard_report.action_account_standard_report_template
+msgid "Standard Report Templates"
+msgstr "قوالب التقارير القياسية"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__date_from
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_report__date_from
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__date_from
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#, python-format
+msgid "Start Date : %s "
+msgstr "Start Date : %s "
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__line_type__5_super_total
+msgid "Super Total"
+msgstr "سوبر إجمالي"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_account__type_third_parties__supplier
+msgid "Supplier"
+msgstr "المورد"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger__result_selection__supplier
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_template__result_selection__supplier
+msgid "Suppliers"
+msgstr "الموردين"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__target_move
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__target_move
+msgid "Target Moves"
+msgstr "تحركات الهدف"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#, python-format
+msgid "Target Moves:"
+msgstr "تحركات الهدف:"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__template_id
+msgid "Template"
+msgstr "قالب"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#, python-format
+msgid "Template of %s"
+msgstr "Template of %s"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_ir_actions_report__report_type
+msgid ""
+"The type of the report that will be rendered, each one having its own "
+"rendering method. HTML means the report will be opened directly in your "
+"browser PDF means the report will be rendered using Wkhtmltopdf and "
+"downloaded by the user."
+msgstr ""
+"نوع التقرير الذي سيتم تقديمه ، ولكل تقرير طريقة عرض خاصة به. يعني HTML "
+"أن التقرير سيتم فتحه مباشرة في متصفحك. PDF يعني أن التقرير سيتم عرضه "
+"باستخدام Wkhtmltopdf وتنزيله بواسطة المستخدم."
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_account__type_third_parties
+msgid "Third Party"
+msgstr "طرف ثالث"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__line_type__4_total
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__account_report_standard_ledger_line__view_type__total
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.view_account_report_standard_ledger_line_tree
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.view_aged_tree
+#, python-format
+msgid "Total"
+msgstr "مجموع"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__summary
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__summary
+msgid "Trial Balance"
+msgstr "ميزان المراجعة"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__ledger_type
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__line_type
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__ledger_type
+msgid "Type"
+msgstr "النوع"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__date_from
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger_report__date_from
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__date_from
+msgid "Use to compute initial balance."
+msgstr "استخدم لحساب الرصيد الأولي."
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__date_to
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger_report__date_to
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__date_to
+msgid "Use to compute the entrie matched with futur."
+msgstr "استخدم لحساب المطابقة بالكامل مع المستقبل."
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_standard_ledger__company_currency_id
+#: model:ir.model.fields,help:om_account_standard_report.field_account_report_template__company_currency_id
+msgid "Utility field to express amount currency"
+msgstr "حقل المنفعة للتعبير عن مبلغ العملة"
+
+#. module: om_account_standard_report
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.account_report_standard_view
+msgid "View Lines"
+msgstr "خطوط عرض"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger_line__view_type
+msgid "View Type"
+msgstr "نوع العرض"
+
+#. module: om_account_standard_report
+#. openerp-web
+#: code:addons/om_account_standard_report/static/src/js/report/action_manager_report.js:0
+#, python-format
+msgid "Warning"
+msgstr "تحذير"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__amount_currency
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__amount_currency
+msgid "With Currency"
+msgstr "مع العملة"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/report/report_account_standard_excel.py:0
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_standard_ledger__reconciled
+#: model:ir.model.fields,field_description:om_account_standard_report.field_account_report_template__reconciled
+#: model_terms:ir.ui.view,arch_db:om_account_standard_report.report_account_standard_report
+#, python-format
+msgid "With Reconciled Entries"
+msgstr "إدخالات تمت تسويتها"
+
+#. module: om_account_standard_report
+#: model:ir.model.fields.selection,name:om_account_standard_report.selection__ir_actions_report__report_type__xlsx
+msgid "XLSX"
+msgstr "تصدير (XLSX)"
+
+#. module: om_account_standard_report
+#: code:addons/om_account_standard_report/wizard/account_standard_report.py:0
+#, python-format
+msgid "Your are not an accountant."
+msgstr "أنت لست محاسب."
+
+#. module: om_account_standard_report
+#: model:ir.actions.report,print_report_name:om_account_standard_report.action_standard_report
+msgid "object.report_id.report_name"
+msgstr "object.report_id.report_name"

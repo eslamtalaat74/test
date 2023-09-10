@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+
+		<record id="pos_category_form_view_inherit" model="ir.ui.view">
+			<field name="name">pos.category.form.inherit</field>
+			<field name="model">pos.category</field>
+			<field name="inherit_id" ref="point_of_sale.product_pos_category_form_view" />
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='sequence']" position="after">
+					<field name="company_id" readonly="1" groups="base.group_multi_company"/>
+				</xpath>
+			</field>
+		</record>
+
+		<record id="pos_category_tree_view_inherit" model="ir.ui.view">
+			<field name="name">pos.category.tree.inherited</field>
+			<field name="model">pos.category</field>
+			<field name="inherit_id" ref="point_of_sale.product_pos_category_tree_view" />
+			<field name="arch" type="xml">
+				<field name='display_name' position='after'>
+					<field name="company_id" groups="base.group_multi_company"/>
+				</field>
+			</field>
+		</record>
+
+    </data>
+</odoo>

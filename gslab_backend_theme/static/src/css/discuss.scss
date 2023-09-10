@@ -1,0 +1,11 @@
+.o_DiscussSidebar_item.o-active {
+    .o_DiscussSidebarItem_activeIndicator {
+        &.o-item-active {
+            background-color: $o-brand-primary !important;
+        }
+    }
+}
+
+.o_DiscussSidebarItem_counter {
+    background-color: $o-brand-primary !important;
+}

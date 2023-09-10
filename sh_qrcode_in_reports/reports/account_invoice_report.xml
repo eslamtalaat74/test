@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <template id="sh_qrcode_in_reports_account_invoice_report" inherit_id="account.report_invoice_document">
+        <xpath expr="//h2" position="inside">
+            <span t-if="o.name">
+                <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR',o.name, 600, 100)" style="width: 200px; height: 200px;" class="pull-right mb16" />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </span>
+        </xpath>
+    </template>
+</odoo>

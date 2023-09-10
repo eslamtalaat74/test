@@ -1,0 +1,63 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_odoo_multi_branch_project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-23 12:58+0000\n"
+"PO-Revision-Date: 2021-02-25 12:17+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar_SA\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: bi_odoo_multi_branch_project
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_project__branch_id
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_task__branch_id
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_report_project_task_user__branch_id
+#: model_terms:ir.ui.view,arch_db:bi_odoo_multi_branch_project.bi_project_project_filter
+#: model_terms:ir.ui.view,arch_db:bi_odoo_multi_branch_project.bi_project_task_filter
+msgid "Branch"
+msgstr "فرع"
+
+#. module: bi_odoo_multi_branch_project
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_project__display_name
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_task__display_name
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_report_project_task_user__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: bi_odoo_multi_branch_project
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_project__id
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_task__id
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_report_project_task_user__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: bi_odoo_multi_branch_project
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_project____last_update
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_project_task____last_update
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_project.field_report_project_task_user____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: bi_odoo_multi_branch_project
+#: model:ir.model,name:bi_odoo_multi_branch_project.model_project_project
+msgid "Project"
+msgstr "المشروع"
+
+#. module: bi_odoo_multi_branch_project
+#: model:ir.model,name:bi_odoo_multi_branch_project.model_project_task
+msgid "Task"
+msgstr "المهمة"
+
+#. module: bi_odoo_multi_branch_project
+#: model:ir.model,name:bi_odoo_multi_branch_project.model_report_project_task_user
+msgid "Tasks Analysis"
+msgstr "تحليل المهام"

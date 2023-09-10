@@ -1,0 +1,147 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_branch_pos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-23 12:53+0000\n"
+"PO-Revision-Date: 2021-02-24 13:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: bi_branch_pos
+#: model_terms:ir.ui.view,arch_db:bi_branch_pos.inherit_view_pos_branch_config_form
+msgid "Allowed POS Branches"
+msgstr "فروع نقاط البيع المسموح بها"
+
+#. module: bi_branch_pos
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_config__pos_branch_ids
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_order__branch_id
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_payment__branch_id
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_session__branch_id
+#: model:ir.model.fields,field_description:bi_branch_pos.field_report_pos_order__branch_id
+#: model_terms:ir.ui.view,arch_db:bi_branch_pos.pos_sale_order_branch_field
+msgid "Branch"
+msgstr "فرع"
+
+#. module: bi_branch_pos
+#. openerp-web
+#: code:addons/bi_branch_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Branch:"
+msgstr "فرع:"
+
+#. module: bi_branch_pos
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_config__display_name
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_order__display_name
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_payment__display_name
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_session__display_name
+#: model:ir.model.fields,field_description:bi_branch_pos.field_report_pos_order__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: bi_branch_pos
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_config__id
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_order__id
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_payment__id
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_session__id
+#: model:ir.model.fields,field_description:bi_branch_pos.field_report_pos_order__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: bi_branch_pos
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_config____last_update
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_order____last_update
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_payment____last_update
+#: model:ir.model.fields,field_description:bi_branch_pos.field_pos_session____last_update
+#: model:ir.model.fields,field_description:bi_branch_pos.field_report_pos_order____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid ""
+"No cash statement found for this session. Unable to record returned cash."
+msgstr ""
+"لم يتم العثور على كشف حساب نقدي لهذه الجلسة. غير قادر على تسجيل الأموال "
+"المرتجعة."
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid "Please define income account for this product: \"%s\" (id:%d)."
+msgstr "يرجى تحديد حساب الدخل لهذا المنتج: \"%s\" (id:%d)."
+
+#. module: bi_branch_pos
+#: model:ir.model,name:bi_branch_pos.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "إعدادات نقطة البيع"
+
+#. module: bi_branch_pos
+#: model:ir.model,name:bi_branch_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "أوامر نقطة البيع"
+
+#. module: bi_branch_pos
+#: model:ir.model,name:bi_branch_pos.model_report_pos_order
+msgid "Point of Sale Orders Report"
+msgstr "تقرير أوامر نقطة البيع"
+
+#. module: bi_branch_pos
+#: model:ir.model,name:bi_branch_pos.model_pos_payment
+msgid "Point of Sale Payments"
+msgstr "مدفوعات نقاط البيع"
+
+#. module: bi_branch_pos
+#: model:ir.model,name:bi_branch_pos.model_pos_session
+msgid "Point of Sale Session"
+msgstr "جلسة نقطة البيع"
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid "Selected orders do not have the same session!"
+msgstr "لا تحتوي الأوامر المحددة على نفس الجلسة!"
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid "Tax"
+msgstr "الضريبة"
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid "The POS order must have lines when calling this method"
+msgstr "يجب أن يحتوي طلب نقاط البيع على أسطر عند استدعاء هذه الطريقة"
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid ""
+"This transfer has been created from the point of sale session: <a href=# "
+"data-oe-model=pos.order data-oe-id=%d>%s</a>"
+msgstr ""
+"تم إنشاء هذ النقل من خلال جلسة نقطة البيع <a href=# data-oe-model=pos."
+"order data-oe-id=%d>%s</a>"
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid "Trade Receivables"
+msgstr "المستحقات التجارية"
+
+#. module: bi_branch_pos
+#: code:addons/bi_branch_pos/models/pos_branch.py:0
+#, python-format
+msgid "return"
+msgstr "العودة"

@@ -1,0 +1,83 @@
+.sh-pos-receipt-logo{
+	width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.pos-receipt.sh_pos_receipt .pos-receipt-header{
+    text-align: left;
+}
+.pos-invoice-header{
+    border-bottom: 1.5px dashed gray;
+}
+.orderline-tbl{
+    width: 100%;
+}
+.orderline-tbl thead, .sh-change{
+    border-bottom: 1px dashed black;
+}
+.orderline-tbl tbody{
+    border-bottom: 1px solid black;
+}
+.orderline-tbl thead th:last-child,.orderline-tbl tbody td:last-child{
+    text-align: right;
+}
+.pos-amount-content{
+    border-bottom: 1px dashed black;
+}
+.sh-amount-content span:last-child, .sh-receipt-header span:last-child, .sh-change-content span:last-child{
+    text-align: right;
+}
+.sh-company-name{
+    text-align: center;
+}
+body.o_rtl .pos .pos-receipt-container.sh_receipt_content > div{direction: rtl !important;}
+body.o_rtl .pos-receipt-print{direction: rtl !important;}
+
+.pos .pos-receipt-container.sh_receipt_content > div {font-size: 9px !important;}
+.pos-receipt-print {
+    width: 550px;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: left;
+    direction: ltr;
+    font-size: 20px;
+    color: #000000;
+}
+.sh_pos_receipt.pos-receipt .sh_address{font-size: 12px;}
+.sh_pos_receipt.pos-receipt .sh-company-name h5{font-weight: bold;margin: 10px 5px; font-size: 14px;}
+/* .sh_pos_receipt.pos-receipt table.sh-receipt-header, */
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table,
+.sh-change table.sh-change-content.sh-receipt-header,
+.pos-invoice-header table.pos-invoice-content.sh-receipt-header{table-layout: fixed;word-break: break-word;padding-bottom: 8px;width: 100%;}
+.sh_pos_receipt.pos-receipt .sh_text_left{text-align: left;}
+.sh_pos_receipt.pos-receipt .sh_text_center{text-align: center;}
+.sh_pos_receipt.pos-receipt .sh_text_right{text-align: right;}
+.sh_pos_receipt.pos-receipt table.sh-receipt-header .sh_width_28{width: 28%;padding: 5px;}
+.sh_pos_receipt.pos-receipt table.sh-receipt-header .sh_width_3{width: 3%;padding: 5px;}
+.sh_pos_receipt.pos-receipt table.sh-receipt-header .sh_width_38{width: 38%;padding: 5px;}
+.sh_pos_receipt.pos-receipt table.sh-receipt-header .sh_invoice_width_24{width: 24%;padding: 5px;}
+.sh_pos_receipt.pos-receipt table.sh-receipt-header .sh_invoice_width_44{width: 44%;padding: 5px;}
+.sh_pos_receipt.pos-receipt .sh_invoice_header{text-transform: uppercase;margin: 8px 5px;font-weight: bold;padding-bottom: 10px;border-bottom: 1.5px dashed gray;}
+
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table tbody td{vertical-align: top;padding: 8px 5px;}
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table .sh_orderline_width_24{padding: 8px 5px;}
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table .sh_orderline_width_16{padding: 8px 5px;}
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table .sh_orderline_width_20{padding: 8px 5px;}
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table .sh_orderline_width_40{padding: 8px 5px;}
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table tbody .sh_discount{font-style: italic;color: #8f8f8f;}
+.pos-receipt.sh_pos_receipt .sh-change{padding: 4px 0px;}
+
+.sh_pos_receipt.pos-receipt .sh_edit_icon{margin-left: 5px;}
+
+.sh_pos_receipt.pos-receipt .sh-orderline-header .sh_orderline_table tr:last-child td{border-bottom: 1px dashed black;}
+
+.pos .popups .modal-dialog.sh_return_order_popup .sh_return_order_div .return_sub_div .return_order_textbox{min-height: 35px;font-size: 16px;}
+.pos .popups .modal-dialog.sh_return_order_popup .sh_return_order_div .return_sub_div input.return_order_textbox:focus, .pos .popups .modal-dialog.sh_return_order_popup .sh_return_order_div .return_sub_div input.return_order_textbox.active{box-shadow: 0px 0px 0px 2px #6ec89b;}
+
+@media only screen and (max-width: 767.98px){
+	.pos .popups .modal-dialog.sh_return_order_popup{padding-left: 0px;}
+	.pos .popups .modal-dialog.sh_return_order_popup .popup.sh_return_order_popup_sub{max-width: 320px;}
+}

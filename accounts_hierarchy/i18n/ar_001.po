@@ -1,0 +1,269 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* accounts_hierarchy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210709\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:38+0000\n"
+"PO-Revision-Date: 2021-07-30 16:02+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: accounts_hierarchy
+#: model:ir.model,name:accounts_hierarchy.model_account_account
+msgid "Account"
+msgstr "حساب"
+
+#. module: accounts_hierarchy
+#: model:ir.model,name:accounts_hierarchy.model_accounts_hierarchy
+msgid "Accounts Hiearchy"
+msgstr "التسلسل الهرمي للحسابات"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields.selection,name:accounts_hierarchy.selection__accounts_hierarchy__target_move__all
+msgid "All Entries"
+msgstr "كافة الإدخالات"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields.selection,name:accounts_hierarchy.selection__accounts_hierarchy__target_move__posted
+msgid "All Posted Entries"
+msgstr "كافة الإدخالات المرحلة"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__balance
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_hierarchy_body_print
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.view_accounts_hierarchy
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+msgid ""
+"Chart Of Account Not Loaded. Please Reload from Chart of Accounts Hiearchy "
+"Menu.."
+msgstr ""
+"لم يتم تحميل مخطط الحساب. الرجاء إعادة التحميل من قائمة التسلسل الهرمي "
+"لشجرة الحسابات .."
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+msgid "Chart of Account:"
+msgstr "الدليل المحاسبي:"
+
+#. module: accounts_hierarchy
+#: model:ir.actions.client,name:accounts_hierarchy.accounts_hierarchy_tag
+msgid "Chart of Accounts Hiearchy"
+msgstr "التسلسل الهرمي للحسابات"
+
+#. module: accounts_hierarchy
+#: model:ir.actions.act_window,name:accounts_hierarchy.action_accounts_hierarchy
+#: model:ir.ui.menu,name:accounts_hierarchy.menu_accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_hierarchy_body_print
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.view_accounts_hierarchy
+msgid "Chart of Accounts Hierarchy"
+msgstr "التسلسل الهرمي للحسابات"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__child_ids
+msgid "Children"
+msgstr "تابع"
+
+#. module: accounts_hierarchy
+#. openerp-web
+#: code:addons/accounts_hierarchy/static/src/xml/accounts_hierarchy_report_backend.xml:0
+#, python-format
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_hierarchy_body_print
+msgid "Code"
+msgstr "كود"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__credit
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_hierarchy_body_print
+msgid "Credit"
+msgstr "ائتمان"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__debit
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_hierarchy_body_print
+msgid "Debit"
+msgstr "مدين"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__display_name
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__date_to
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: accounts_hierarchy
+#: code:addons/accounts_hierarchy/wizard/accounts_hierarchy.py:0
+#, python-format
+msgid "End date must be greater than start date!"
+msgstr "يجب أن يكون تاريخ الانتهاء أكبر من تاريخ البدء!"
+
+#. module: accounts_hierarchy
+#. openerp-web
+#: code:addons/accounts_hierarchy/static/src/xml/accounts_hierarchy_report_backend.xml:0
+#, python-format
+msgid "Error"
+msgstr "خطأ"
+
+#. module: accounts_hierarchy
+#. openerp-web
+#: code:addons/accounts_hierarchy/static/src/xml/accounts_hierarchy_report_line.xml:0
+#, python-format
+msgid "Fold"
+msgstr "اضعاف"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__has_child
+msgid "Has Child"
+msgstr "لديه تابع"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__id
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account____last_update
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__account_move_line_ids
+msgid "Move Lines"
+msgstr "نقل البنود"
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_hierarchy_body_print
+msgid "Name"
+msgstr "اسم"
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.view_accounts_hierarchy
+msgid ""
+"Note: No heirarchical view will be displayed If there is no parent accounts "
+"set for Accounts."
+msgstr ""
+"ملاحظة: لن يتم عرض أي طريقة عرض إرثية إذا لم يتم تعيين حسابات أصلية "
+"للحسابات."
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.view_accounts_hierarchy
+msgid "Open Hierarchy"
+msgstr "فتح التسلسل الهرمي"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_account_account__parent_id
+msgid "Parent Name"
+msgstr "اسم الأصل"
+
+#. module: accounts_hierarchy
+#. openerp-web
+#: code:addons/accounts_hierarchy/static/src/xml/accounts_hierarchy_report_backend.xml:0
+#, python-format
+msgid "Print PDF"
+msgstr "طباعة PDF"
+
+#. module: accounts_hierarchy
+#. openerp-web
+#: code:addons/accounts_hierarchy/static/src/xml/accounts_hierarchy_report_backend.xml:0
+#, python-format
+msgid "Print XLS"
+msgstr "طباعة XLS"
+
+#. module: accounts_hierarchy
+#: model:res.groups,name:accounts_hierarchy.group_accounts_hierarchy_user
+msgid "Show Chart of Account Hierarchy"
+msgstr "إظهار مخطط التسلسل الهرمي للحساب"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__date_from
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+#. module: accounts_hierarchy
+#: model:ir.model.fields,field_description:accounts_hierarchy.field_accounts_hierarchy__target_move
+msgid "Target Moves"
+msgstr "تحركات الهدف"
+
+#. module: accounts_hierarchy
+#: code:addons/accounts_hierarchy/controllers/main.py:0
+#, python-format
+msgid ""
+"There are too many rows (%s rows, limit: 65535) to export as Excel 97-2003 "
+"(.xls) format."
+msgstr ""
+"There are too many rows (%s rows, limit: 65535) to export as Excel 97-2003 "
+"(.xls) format."
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_heirarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.report_accounts_hierarchy_body_print
+msgid "Type"
+msgstr "النوع"
+
+#. module: accounts_hierarchy
+#. openerp-web
+#: code:addons/accounts_hierarchy/static/src/xml/accounts_hierarchy_report_line.xml:0
+#, python-format
+msgid "Unfold"
+msgstr "اظهار"
+
+#. module: accounts_hierarchy
+#: model_terms:ir.ui.view,arch_db:accounts_hierarchy.view_accounts_hierarchy
+msgid "or"
+msgstr "أو"

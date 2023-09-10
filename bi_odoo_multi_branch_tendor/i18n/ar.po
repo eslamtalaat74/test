@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_odoo_multi_branch_tendor
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-23 12:59+0000\n"
+"PO-Revision-Date: 2021-02-25 12:21+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar_SA\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: bi_odoo_multi_branch_tendor
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_tendor.field_purchase_requisition__branch_id
+msgid "Branch"
+msgstr "فرع"
+
+#. module: bi_odoo_multi_branch_tendor
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_tendor.field_purchase_requisition__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: bi_odoo_multi_branch_tendor
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_tendor.field_purchase_requisition__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: bi_odoo_multi_branch_tendor
+#: model:ir.model.fields,field_description:bi_odoo_multi_branch_tendor.field_purchase_requisition____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: bi_odoo_multi_branch_tendor
+#: model:ir.model,name:bi_odoo_multi_branch_tendor.model_purchase_requisition
+msgid "Purchase Requisition"
+msgstr "طلب الشراء"

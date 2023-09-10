@@ -1,0 +1,45 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_odoo_crm_multi_branch
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-23 12:56+0000\n"
+"PO-Revision-Date: 2021-02-25 12:12+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar_SA\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: bi_odoo_crm_multi_branch
+#: model:ir.model.fields,field_description:bi_odoo_crm_multi_branch.field_crm_lead__branch_id
+#: model_terms:ir.ui.view,arch_db:bi_odoo_crm_multi_branch.crm_branch_filter
+#: model_terms:ir.ui.view,arch_db:bi_odoo_crm_multi_branch.crm_pipe_line_branch_filter
+msgid "Branch"
+msgstr "فرع"
+
+#. module: bi_odoo_crm_multi_branch
+#: model:ir.model.fields,field_description:bi_odoo_crm_multi_branch.field_crm_lead__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: bi_odoo_crm_multi_branch
+#: model:ir.model.fields,field_description:bi_odoo_crm_multi_branch.field_crm_lead__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: bi_odoo_crm_multi_branch
+#: model:ir.model.fields,field_description:bi_odoo_crm_multi_branch.field_crm_lead____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: bi_odoo_crm_multi_branch
+#: model:ir.model,name:bi_odoo_crm_multi_branch.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "ترشيح/فرصة"

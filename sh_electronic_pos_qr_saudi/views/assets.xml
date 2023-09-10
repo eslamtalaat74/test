@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="sh_pos_electronic_saudi_assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="sh_electronic_pos_qr_saudi/static/src/js/pos.js" />
+        </xpath>
+    </template>
+    
+    <template id="sh_pos_electronic_saudi_fronted_assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="sh_electronic_pos_qr_saudi/static/src/js/easy.qrcode.min.js" />
+            <link rel="stylesheet" href="sh_electronic_pos_qr_saudi/static/src/css/pos.css" />
+        </xpath>
+    </template>
+</odoo>
